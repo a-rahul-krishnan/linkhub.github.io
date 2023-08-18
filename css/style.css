@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(to bottom,black,rgb(97, 96, 96));
+    font-family: Copperplate Gothic;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    color:white;
+    margin-top: auto;
+    border-top: 0.5px solid darkgrey;
+
+}
+#nav{
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-bottom: 0.5px solid darkgrey;
+}
+#works a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+    border-radius: 5px;
+    text-shadow: 1px .5px grey;
+    font-size: 14px;
+  
+}
+#works a:hover{
+    background-color: black;
+    padding: 12px;
+    margin: 8px;
+    font-size: 15px;
+}
+#dp{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+#icon img{
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+}
+#icon a:hover img{
+    height: 45px;
+    width: 45px;
+    margin: 1.5px;
+}
