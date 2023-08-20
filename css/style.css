@@ -89,5 +89,14 @@ html{
 }
 #cv a:hover{
     border:2px solid whitesmoke;
-
+}
+#up-down{
+    display: inline; 
+    float: right; 
+    margin-right:10px;
+    border-radius: 50%;
+}
+#up-down:hover{
+    border:2px solid whitesmoke;
+    margin-right: 8px;
 }
