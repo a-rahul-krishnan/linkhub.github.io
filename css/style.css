@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to bottom,black,rgb(97, 96, 96));
-    font-family:Courier New;
+    font-family: 'Courier New';
     color: white;
     display: flex;
     flex-direction: column;
@@ -35,15 +35,16 @@ footer{
   
 }
 #works a:hover{
-    background-color: black;
+    background-color: #121212;
     padding: 12px;
-    margin: 8px;
+    margin: 10px;
     font-size: 15px;
 }
 #dp{
     border-radius: 50%;
     height: 150px;
     width: 150px;
+    display: inline;
 }
 #icon img{
     height: 40px;
@@ -54,4 +55,30 @@ footer{
     height: 45px;
     width: 45px;
     margin: 1.5px;
+}
+#about{
+    text-align:justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.6em;
+}
+#download-button{
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom right,rgb(97, 96, 96),#121212);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New';
+    text-decoration: none;
+    padding: 8px;
+    border:2px solid grey;
+}
+#cv p{
+    margin-bottom: 20px;
+}
+#cv{
+    margin-bottom: 10px;
+}
+#cv a:hover{
+    border:2px solid whitesmoke;
+
 }
