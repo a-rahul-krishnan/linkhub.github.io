@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to bottom,black,rgb(97, 96, 96));
-    font-family: Copperplate Gothic;
+    font-family: Copperplate Gothic,Courier New;
     color: white;
     display: flex;
     flex-direction: column;
