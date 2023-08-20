@@ -16,6 +16,9 @@ footer{
     border-top: 0.5px solid darkgrey;
 
 }
+html{
+    scroll-behaviour: smooth;
+}
 #nav{
     background-color: black;
     color:white;
