@@ -48,6 +48,7 @@ html{
     height: 150px;
     width: 150px;
     display: inline;
+    margin: 10px;
 }
 #dp:hover{
     border:3px solid whitesmoke;
@@ -86,6 +87,7 @@ html{
 }
 #cv a:hover{
     border:2px solid whitesmoke;
+
 }
 #up-down{
     display: inline; 
