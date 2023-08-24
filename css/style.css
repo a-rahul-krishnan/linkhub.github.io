@@ -53,10 +53,14 @@ html{
 #dp:hover{
     border:3px solid whitesmoke;
 }
+#icon{
+    margin: auto;
+}
 #icon img{
     height: 40px;
     width: 40px;
     margin: 3px;
+    display: inline;
 }
 #icon a:hover img{
     height: 45px;
