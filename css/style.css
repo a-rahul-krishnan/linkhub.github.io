@@ -16,7 +16,6 @@ footer{
     border-radius: 5px;
     margin: 1%;
     background-color: #283138;
-
 }
 html{
     scroll-behavior: smooth;
@@ -48,8 +47,6 @@ footer p{
     display: block;
     border-radius: 5px;
     font-size: 14px;
-    background-color: #283138;
-  
 }
 #works a:hover{
     background-color: #39434F;
@@ -118,6 +115,7 @@ footer p{
     color: #1D2226;
 }
 #cv a:active{
-    border:2px solid white;
-    color: black;
+    border:2px solid #7FB4E8;
+    color:#7FB4E8;
+    background-color: #364E66;
 }
