@@ -115,9 +115,8 @@ footer p{
     margin: 1%;
 }
 #cv a:hover{
-    border:2px solid #BCBDC1;
-    color:#BCBDC1;
-
+    background:#7FB4E8;
+    color:#1D2226;
 }
 #cv a:active{
     border:2px solid white;
