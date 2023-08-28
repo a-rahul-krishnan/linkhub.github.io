@@ -1,4 +1,3 @@
-/*External style Sheet*/
 body {
     background-image: linear-gradient(to bottom,#000000,#000000);
     font-family: 'Arial';
@@ -115,10 +114,10 @@ footer p{
     margin: 1%;
 }
 #cv a:hover{
-    background:#7FB4E8;
-    color:#1D2226;
+    background: #7FB4E8;
+    color: #1D2226;
 }
 #cv a:active{
     border:2px solid white;
-    color:black;
+    color: black;
 }
