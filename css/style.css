@@ -1,7 +1,7 @@
 /*External style Sheet*/
 body {
-    background-image: linear-gradient(to bottom,black,rgb(97, 96, 96));
-    font-family: 'Courier New';
+    background-image: linear-gradient(to bottom,#000000,#000000);
+    font-family: 'Arial';
     color: white;
     display: flex;
     flex-direction: column;
@@ -14,16 +14,31 @@ footer{
     padding: 10px;
     color:white;
     margin-top: auto;
-    border-top: 0.5px solid darkgrey;
+    border-radius: 5px;
+    margin: 1%;
+    background-color: #283138;
+
 }
 html{
     scroll-behavior: smooth;
 }
+b,h1,h4{
+    color: #7FB4E8;
+}
+footer p{
+    color: #7FB4E8;
+}
 #nav{
-    background-color: black;
+    background-color: #283138;
     color:white;
     text-align: center;
-    border-bottom: 0.5px solid darkgrey;
+    border-radius: 5px;
+    margin: 1%;
+}
+.cont{
+    background-color: #1D2226;
+    border-radius: 5px;
+    margin: 1%;
 }
 #works a {
     text-decoration: none;
@@ -33,17 +48,18 @@ html{
     margin: 20px;
     display: block;
     border-radius: 5px;
-    text-shadow: 1px .5px grey;
     font-size: 14px;
+    background-color: #283138;
+  
 }
 #works a:hover{
-    background-color: #121212;
+    background-color: #39434F;
     padding: 12px;
     margin: 10px;
     font-size: 15px;
 }
 #works a:active{
-    background-image: linear-gradient(to top,black,rgb(97,96,96));
+    background-image: linear-gradient(to top,#283138,#39434F);
     padding: 12px;
     margin: 10px;
     font-size: 15px;
@@ -58,10 +74,10 @@ html{
     margin: 10px;
 }
 #dp:hover{
-    border:3px solid whitesmoke;
+    border:3px solid #BCBDC1;
 }
 #dp:active{
-    border:3px solid grey;
+    border:3px solid white;
 }
 #icon{
     margin: auto;
@@ -85,31 +101,25 @@ html{
 }
 #download-button{
     font-weight: bolder;
-    background-image: linear-gradient(to bottom right,rgb(97, 96, 96),#121212);
     border-radius: 5px;
-    color: white;
-    font-family: 'Courier New';
+    color: #7FB4E8;
+    font-family: 'Arial';
     text-decoration: none;
     padding: 8px;
-    border:2px solid grey;
+    border:2px solid #7FB4E8;
 }
 #cv{
-    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #1D2226;
+    border-radius: 5px;
+    margin: 1%;
 }
 #cv a:hover{
-    border:2px solid whitesmoke;
+    border:2px solid #BCBDC1;
+    color:#BCBDC1;
 
 }
 #cv a:active{
-    border:2px solid black;
-}
-#up-down{
-    display: inline; 
-    float: right; 
-    margin-right:10px;
-    border-radius: 50%;
-}
-#up-down:hover{
-    border:2px solid whitesmoke;
-    margin-right: 8px;
+    border:2px solid white;
+    color:white;
 }
