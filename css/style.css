@@ -20,11 +20,12 @@ footer{
 html{
     scroll-behavior: smooth;
 }
-b,h1,h4{
+b,h1,h4,footer p{
     color: #7FB4E8;
+    cursor:default;
 }
-footer p{
-    color: #7FB4E8;
+p{
+    cursor:default;
 }
 #nav{
     background-color: #283138;
