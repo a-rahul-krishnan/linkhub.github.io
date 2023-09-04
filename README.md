@@ -1,5 +1,5 @@
-# linktree.github.io
+# linkhub.github.io
 
-[My LinkTree](https://a-rahul-krishnan.github.io/linkhub.github.io/)
+[LinkHub](https://a-rahul-krishnan.github.io/linkhub.github.io/)
 
 Technologies used: HTML & CSS.
